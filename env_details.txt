@@ -1,0 +1,20 @@
+# Gemini
+GEMINI_API_KEY="My Google Gemini Key"
+GEMINI_MODEL=gemini-3.5-flash-lite
+
+# Embeddings
+EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+
+# ChromaDB
+CHROMA_DIR=./data/chroma
+COLLECTION_NAME=documents
+
+# Chunking
+CHUNK_SIZE=1000
+CHUNK_OVERLAP=150
+
+# RAG
+TOP_K=5
+
+# Upload
+MAX_UPLOAD_MB=25
